@@ -1,0 +1,72 @@
+#background {
+    position: absolute;
+    width: 100vw;
+    z-index: -2;
+}
+
+#flork {
+    margin-top: 40px;
+    width: 250px;
+}
+
+.centerImage {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: "SignPainter";
+    font-size: 48pt;
+    text-align: center;
+    translate: 0 -75px;
+}
+
+p {
+    font-family: "SignPainter";
+    font-size: 26pt;
+    text-align: center;
+    translate: 0 -125px;
+    line-height: 1.1em;
+}
+
+#lenny {
+    font-family: 'Calibri';
+    font-size: 22pt;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: -120px;
+    gap: 40px;
+}
+
+#positive {
+    width: 250px;
+    height: 50px;
+    background-color: #009b77;
+    border: none;
+    box-shadow: 0 0 20px #009b77;
+    font-family: "San Francisco Pro";
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#positive:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 30px #009b77;
+    transition: 0.5s;
+}
+
+#negative {
+    width: 250px;
+    height: 50px;
+    background-color: rgb(225, 82, 61);
+    border: none;
+    box-shadow: 0 0 20px rgb(225, 82, 61);
+    font-family: "San Francisco Pro";
+    font-weight: bold;
+    color: #ffffff;
+    cursor: not-allowed;
+}
